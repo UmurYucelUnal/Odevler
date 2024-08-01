@@ -4,14 +4,30 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="umur"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-08-01 11:16:39 &#214;S"/>
+        <attribute name="saved" value="2024-08-01 11:50:46 &#214;S"/>
         <attribute name="created" value="dW11cjtERVNLVE9QLUJBOElQUEE7MjAyNC0wOC0wMTsxMToxNTo1MSDDllM7Mjk0MA=="/>
-        <attribute name="edited" value="dW11cjtERVNLVE9QLUJBOElQUEE7MjAyNC0wOC0wMTsxMToxNjozOSDDllM7MTszMDU1"/>
+        <attribute name="edited" value="dW11cjtERVNLVE9QLUJBOElQUEE7MjAyNC0wOC0wMTsxMTo1MDo0NiDDllM7MjszMDUy"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="derece" type="Integer" array="False" size=""/>
+            <input variable="derece"/>
+            <if expression="derece &lt; 0">
+                <then>
+                    <output expression="&quot;Kat&#305;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="derece &lt;= 99">
+                        <then>
+                            <output expression="&quot;S&#305;v&#305;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Gaz&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
         </body>
     </function>
 </flowgorithm>
