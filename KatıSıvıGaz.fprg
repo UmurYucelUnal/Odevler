@@ -4,14 +4,15 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="umur"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-08-01 11:50:46 &#214;S"/>
+        <attribute name="saved" value="2024-08-03 09:43:36 &#214;&#214;"/>
         <attribute name="created" value="dW11cjtERVNLVE9QLUJBOElQUEE7MjAyNC0wOC0wMTsxMToxNTo1MSDDllM7Mjk0MA=="/>
-        <attribute name="edited" value="dW11cjtERVNLVE9QLUJBOElQUEE7MjAyNC0wOC0wMTsxMTo1MDo0NiDDllM7MjszMDUy"/>
+        <attribute name="edited" value="dW11cjtERVNLVE9QLUJBOElQUEE7MjAyNC0wOC0wMzswOTo0MzozNiDDlsOWOzM7MzE5NA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="derece" type="Integer" array="False" size=""/>
+            <output expression="&quot;dereceyi giriniz&quot;" newline="True"/>
             <input variable="derece"/>
             <if expression="derece &lt; 0">
                 <then>
